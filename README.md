@@ -15,15 +15,15 @@ If there are any product specification documents, link them to appendix.
 
 *Section should include alternative implementations/solutions*
 
-*Document all the Spikes done to evaluate potential solutions. *
+*Document all the Spikes done to evaluate potential solutions.*
 
-*Should start documenting what was done prior to the spike, what are the specific problems and what kind of solution do we value. *
+*Should start documenting what was done prior to the spike, what are the specific problems and what kind of solution do we value.*
 
-*Is it feasible? If the time runs out, “we don’t know yet” is a perfectly acceptable answer to “is it feasible?”. Document what you tried or learned so any other team member could continue if it is decided to resume the spike. *
+*Is it feasible? If the time runs out, “we don’t know yet” is a perfectly acceptable answer to “is it feasible?”. Document what you tried or learned so any other team member could continue if it is decided to resume the spike.*
 
-*How much effort does it need for each approach? Pro’s and con’s of each approach. The goal of a spike would be to produce knowledge, document results and to reduce uncertainty. *
+*How much effort does it need for each approach? Pro’s and con’s of each approach. The goal of a spike would be to produce knowledge, document results and to reduce uncertainty.*
 
-*Document what were your alternatives, why you made the decision and how that will affect (positively and potentially negatively) the team and the project. *
+*Document what were your alternatives, why you made the decision and how that will affect (positively and potentially negatively) the team and the project.*
 
 *Knowledge produced and documented as a result of Spike should be enough for the product owner to create the stories to do the real work and help the development team to estimate it.*
 
@@ -43,15 +43,15 @@ If there are any product specification documents, link them to appendix.
 
 ### Terminology and components
 
-*Nobody likes abbriviations, list of all the key terms and abbriviations*  
+*Nobody likes abbreviations, list of all the key terms and abbreviations.*  
 
 ### Hard and soft dependencies
 
  *What will be the impact on the system if these dependencies go down?* 
 
-### Algorithm or Pseudo code for main components
+### Algorithm or Pseudocode for main components
 
-*Describe your logic in this section*
+*Describe your logic in this section.*
 
 ### Service guarantees that you expect
 
@@ -63,15 +63,15 @@ If there are any product specification documents, link them to appendix.
 
 ### Caching requirements 
 
-*What are you planning to cache? What will be size of cache? For how long?* 
+*What are you planning to cache? What will be the size the cache? For how long?* 
 
 ### Capacity planning
 
- *how much data will service generate, retention policy, sharding* 
+ *How much data will the service generate, retention policy, and sharding.* 
 
 ### Performance requirements 
 
- *expected throughput and SLA. How you came up with these numbers?* 
+ *Expected throughput and SLA. How did you came up with these numbers?* 
 
 ### Security 
 
@@ -79,7 +79,7 @@ If there are any product specification documents, link them to appendix.
 
 ### Multi region story
 
- *Any special requirements your service needs to achieve HA must be listed here. E.g. By default, BigTable doesn’t replicate data across zones or regions. If you are using that to store data, explain how will you handle zone outages..* 
+ *Any special requirements your service needs to achieve HA must be listed here. E.g. By default, BigTable doesn’t replicate data across zones or regions. If you are using that to store data, explain how will you handle zone outages.* 
 
 ## API / gRPC Endpoints 
 
@@ -88,12 +88,12 @@ If there are any product specification documents, link them to appendix.
 ## Rollout Plan
 
 - Define the roll out phases
-- A/B tests that you plan to do as part of rollout
+- A/B tests that you plan to do as part of the rollout
 - Data migration 
 
 ## Test Plan
 
-*How are you planning to test the service? How will you test the dependencies? Will you be creating the mocks for dependencies or using a sandbox environment? How are you planning to run load and performance tests ?* 
+*How are you planning to test the service? How will you test the dependencies? Will you be creating the mocks for dependencies or using a sandbox environment? How are you planning to run load and performance tests?* 
 
 ## Appendix 
 
@@ -103,12 +103,11 @@ If there are any product specification documents, link them to appendix.
 
 ### Internal Review
 
-- **Team lead/manager**: *Sign-off by * 
-- **Sponsor**: *Sign-off by * 
+- **Team lead/manager**: *Sign-off by* 
+- **Sponsor**: *Sign-off by* 
 
-**Target sign-off:** no late than *2 weeks from date of submission - format MM/DD/YYYY (WWW).* 
+**Target sign-off:** no late than *2 weeks from date of submission - format MM/DD/YYYY (WWW).**
 
-**
-**
 
-**[Sign-off Completed on] **
+
+**[Sign-off Completed on]**
