@@ -67,7 +67,7 @@ If there are any product specification documents, link them to appendix.
 
 ### Capacity planning
 
- *hHw much data will the service generate, retention policy, and sharding.* 
+ *How much data will the service generate, retention policy, and sharding.* 
 
 ### Performance requirements 
 
